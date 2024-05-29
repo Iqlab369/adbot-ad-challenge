@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to Iqbal's adbot-challenge repository! This repository is one of many solutions for Zindi's [Adbot Ad Engagement Forecasting Challenge](https://zindi.africa/competitions/adbot-ad-engagement-forecasting-challenge/discussions/21187). The objective of this challenge is to accurately predict the number of clicks a client’s ad receives, one and two weeks into the future (in digital marketing, clicks refer to when someone views the advert and follows one of the hyperlinks in that advert). Not only that, the challenge also requires one to find the most significant features on each prediction. Therefore, the best solution will not only produce an accurate prediction, but also the interpretation.
+Welcome to Iqbal's adbot-ad-challenge repository! This repository is one of many solutions for Zindi's [Adbot Ad Engagement Forecasting Challenge](https://zindi.africa/competitions/adbot-ad-engagement-forecasting-challenge/discussions/21187). The objective of this challenge is to accurately predict the number of clicks a client’s ad receives, one and two weeks into the future (in digital marketing, clicks refer to when someone views the advert and follows one of the hyperlinks in that advert). Not only that, the challenge also requires one to find the most significant features on each prediction. Therefore, the best solution will not only produce an accurate prediction, but also the interpretation.
 
 **NOTE**: Due to Zindi rules, I cannot include the competition datasets in this repository. I also excluded the `submission.csv` just to be safe. If you want to try the notebook, you need to download it from the Zindi website as linked above.
 
@@ -13,14 +13,14 @@ In order to use the notebook, you need to build the enviornment first.
 1. Download this repository as zip file and extract it, or clone it with the following command if you have git installed.
 
 ```bash
-git clone https://github.com/Iqlab369/adbot-challenge
+git clone https://github.com/Iqlab369/adbot-ad-challenge
 ```
 
 2. Open the terminal in your OS. If you are in Windows, you can use Command Prompt or Powershell (preferably the latter).
 3. Change your terminal directory to the location of the repository in your local machine. Here's an example if you're in Windows.
 
 ```bash
-cd /home/iqlab369/adbot-challenge
+cd /home/iqlab369/adbot-ad-challenge
 ```
 
 4. Build `adbot-env` conda environment with the following command.
@@ -37,12 +37,12 @@ conda activate adbot-env
 
 # Notebook Information
 
-The notebook directory is `src/adbot-challenge/notebook.ipynb`. It takes `Train.csv` and `SampleSubmission.csv` as inputs from `input` folder and outputs `submission.csv` in `output` folder.
+The notebook directory is `src/adbot-ad-challenge/notebook.ipynb`. It takes `Train.csv` and `SampleSubmission.csv` as inputs from `input` folder and outputs `submission.csv` in `output` folder.
 
 In order to run the notebook, you can use the following command, just make sure you have already activated the conda environment.
 
 ```bash
-jupyter notebook src/adbot-challenge/notebook.ipynb
+jupyter notebook src/adbot-ad-challenge/notebook.ipynb
 ```
 
 If you find that the result you get is different from the one in the Github repo, that's normal. One of the data wrangling step in the notebook is non-deterministic for some reason, and trying to make it deterministic it just makes the accuracy by default. That is why, I cannot guarantee that you will get the same result in every run.
