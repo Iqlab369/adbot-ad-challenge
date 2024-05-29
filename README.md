@@ -2,7 +2,7 @@
 
 Welcome to Iqbal's adbot-ad-challenge repository! This repository is one of many solutions for Zindi's [Adbot Ad Engagement Forecasting Challenge](https://zindi.africa/competitions/adbot-ad-engagement-forecasting-challenge/discussions/21187). The objective of this challenge is to accurately predict the number of clicks a client’s ad receives, one and two weeks into the future (in digital marketing, clicks refer to when someone views the advert and follows one of the hyperlinks in that advert). Not only that, the challenge also requires one to find the most significant features on each prediction. Therefore, the best solution will not only produce an accurate prediction, but also the interpretation.
 
-**NOTE**: Due to Zindi rules, I cannot include the competition datasets in this repository. I also excluded the `submission.csv` just to be safe. If you want to try the notebook, you need to download it from the Zindi website as linked above.
+**NOTE**: Due to Zindi rules, I cannot include the competition datasets in this repository. I also excluded the `submission.csv` just to be safe. If you want to try the notebook, you need to download the dataset from Zindi website as linked above.
 
 # Creating Environment
 
